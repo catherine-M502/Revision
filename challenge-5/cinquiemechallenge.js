@@ -249,3 +249,45 @@ const clones = circles.map(c => {
 // version sur une ligne:
 //let clones = circles.map(c => ({x: c.x + 10, y: c.y, r: c.r, color: c.color}));
 console.log(clones);
+
+
+const personne = ["a","b","c","d"];
+personne[0] = 2;
+function test(callback){
+  const truc = 1;
+  callback();
+}
+
+const printMessage = function(){
+console.log("coucou")
+}
+
+test(printMessage);
+
+personne.forEach(function(element){
+  console.log(element)
+})
+
+const printMessage2 = (message) => {
+  return message;
+}
+console.log(printMessage2("salut"));
+
+const printMessage3 = (message) => message;
+console.log(printMessage3("hello"));
+
+
+personne.forEach(function(value,key){
+  console.log(value,key)
+})
+
+const mots = personne.map(value => {
+  return value + "s"
+})
+console.log(mots);
+console.log(personne);
+
+//index of
+
+const positionOfB = personne.indexOf("b")
+console.log(positionOfB);
