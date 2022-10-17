@@ -2,7 +2,7 @@
 
 const numbers = Object.freeze([3, 14, 15, 92 ,65, 35, 89, 79, 32, 38]);
 
-//test
+//test nouveau
 
 //réalisez les fonctionnalités ci-dessous.
 //La structure de données initiale ne doit pas être modifiée ( structure immutable ).
